@@ -9,7 +9,7 @@ public class Hilo extends Thread {
     int tiro = 0;
     public Hilo(Ventana p) {
       this.p = p;      
-    }
+    }   
     @Override
     public void run() {
         while (true) {

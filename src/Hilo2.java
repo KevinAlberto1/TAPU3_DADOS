@@ -24,7 +24,7 @@ public class Hilo2 extends Thread {
     @Override
     public void run() { 
         while (true) {
-            try {
+            try {   
                     Thread.sleep(1000);
                 } catch (InterruptedException ex) {
                     Logger.getLogger(Hilo.class.getName()).log(Level.SEVERE, null, ex);

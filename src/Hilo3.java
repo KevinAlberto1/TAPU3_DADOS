@@ -31,7 +31,7 @@ public class Hilo3 extends Thread {
     public void tirada() {
         dado = tirarDado();
     }
-    public int tirarDado() {
+    public int tirarDado() {   
         dado = (int) (Math.random() * 6) + 1;
         return dado;
     }
